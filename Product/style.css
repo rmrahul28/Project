@@ -1,0 +1,49 @@
+*{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+margin: 0;
+padding: 0;
+}
+.product-container{
+    width: 70%;
+    margin: auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.product-image{
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-image img{
+    width: 100%;
+}
+span{
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+a{
+    padding: 10px 20px;
+    color: white;
+    background-color: dodgerblue;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #fff;
+    background-color: rgb(5, 98, 190);
+}
+footer{
+    width: 100%;
+    padding: 5px;
+    background-color: #dfdfdf;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}
+footer p{
+    text-align: center;
+}
