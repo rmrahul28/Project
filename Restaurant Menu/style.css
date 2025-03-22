@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-card{
+    width: 70%;
+    border: 1px solid;
+    margin: auto;
+    padding:30px;
+    background-color: MistyRose;
+}
+.menu{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+th{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+ td{
+    padding: 15px;
+    font-family:Geneva, Tahoma, sans-serif;
+}
+.body-row td:first-child{
+    border-right: 1px solid #000;
+}
+.price{
+    float: right;
+}
